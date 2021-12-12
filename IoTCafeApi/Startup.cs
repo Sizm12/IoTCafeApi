@@ -21,6 +21,9 @@ using IoTCafeApi.Service.Rol;
 using IoTCafeApi.Service.Stage;
 using IoTCafeApi.Service.Station;
 using IoTCafeApi.Service.Variety;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace IoTCafeApi
 {
@@ -38,7 +41,29 @@ namespace IoTCafeApi
         {
             //Habilitacion del Cors
             services.AddCors(options => options.AddPolicy("All", policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
-            
+
+
+            //Configuracion del Token Jwt
+
+            var key = Encoding.ASCII.GetBytes(Configuration.GetValue<string>("SecretKey"));
+
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
+
             //Inyeccion de dependencias
             services.AddScoped<IUserServices, UserServices>();
             services.AddScoped<ICooperativeServices, CooperativeServices>();
@@ -62,6 +87,9 @@ namespace IoTCafeApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            app.UseAuthentication();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

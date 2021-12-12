@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JvhC4yF/ptxRmK7SPteBrZd0AkJgXPwvWCZOhR+r/Us1PgVKLaFwiGmmFk/VNoFgEF3ilHe89xBjW7upj1Oizg==",
+  "dgSpecHash": "/bGKnT2DpvGX8Vad3XvZdZ9OWeY0NzwCXsFsQ4bFaZnjmnqIlYfem0/73RS4qs7PruLvKVnysDaPuHK+ZTXX/A==",
   "success": true,
-  "projectFilePath": "C:\\IotCafeApi\\IoTCafeApi\\IoTCafeApi.Service\\IoTCafeApi.Service.csproj",
+  "projectFilePath": "I:\\WEB API\\IOTCafeApi\\IoTCafeApi.Service\\IoTCafeApi.Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sizm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Sizm\\.nuget\\packages\\npgsql\\6.0.1\\npgsql.6.0.1.nupkg.sha512",
-    "C:\\Users\\Sizm\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Martin Ramos\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Martin Ramos\\.nuget\\packages\\npgsql\\6.0.1\\npgsql.6.0.1.nupkg.sha512",
+    "C:\\Users\\Martin Ramos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "unWk9pqKisyJ3sWRlF1KgFUPHfY4LjxelWpK5FaCIOwPruJQHY9A5N5996hV/snhxrVkaZF+0olm66BtOoVPaw==",
+  "dgSpecHash": "UQ6y2dYRH9Y91DRdb/iJfLJINZgvmA6J3n9GY9exyUXWQuIq6e+5vfEsiB9DO27u5VsgsG8m+AraWer7hqGpmg==",
   "success": true,
-  "projectFilePath": "C:\\IotCafeApi\\IoTCafeApi\\IoTCafeApi.Model\\IoTCafeApi.Model.csproj",
+  "projectFilePath": "I:\\WEB API\\IOTCafeApi\\IoTCafeApi.Model\\IoTCafeApi.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

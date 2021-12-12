@@ -155,19 +155,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sizm\\.nuget\\packages\\": {}
+    "C:\\Users\\Martin Ramos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IotCafeApi\\IoTCafeApi\\IoTCafeApi.Service\\IoTCafeApi.Service.csproj",
+      "projectUniqueName": "I:\\WEB API\\IOTCafeApi\\IoTCafeApi.Service\\IoTCafeApi.Service.csproj",
       "projectName": "IoTCafeApi.Service",
-      "projectPath": "C:\\IotCafeApi\\IoTCafeApi\\IoTCafeApi.Service\\IoTCafeApi.Service.csproj",
-      "packagesPath": "C:\\Users\\Sizm\\.nuget\\packages\\",
-      "outputPath": "C:\\IotCafeApi\\IoTCafeApi\\IoTCafeApi.Service\\obj\\",
+      "projectPath": "I:\\WEB API\\IOTCafeApi\\IoTCafeApi.Service\\IoTCafeApi.Service.csproj",
+      "packagesPath": "C:\\Users\\Martin Ramos\\.nuget\\packages\\",
+      "outputPath": "I:\\WEB API\\IOTCafeApi\\IoTCafeApi.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sizm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Martin Ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -181,11 +181,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\IotCafeApi\\IoTCafeApi\\IoTCafeApi.Data\\IoTCafeApi.Data.csproj": {
-              "projectPath": "C:\\IotCafeApi\\IoTCafeApi\\IoTCafeApi.Data\\IoTCafeApi.Data.csproj"
+            "I:\\WEB API\\IOTCafeApi\\IoTCafeApi.Data\\IoTCafeApi.Data.csproj": {
+              "projectPath": "I:\\WEB API\\IOTCafeApi\\IoTCafeApi.Data\\IoTCafeApi.Data.csproj"
             },
-            "C:\\IotCafeApi\\IoTCafeApi\\IoTCafeApi.Model\\IoTCafeApi.Model.csproj": {
-              "projectPath": "C:\\IotCafeApi\\IoTCafeApi\\IoTCafeApi.Model\\IoTCafeApi.Model.csproj"
+            "I:\\WEB API\\IOTCafeApi\\IoTCafeApi.Model\\IoTCafeApi.Model.csproj": {
+              "projectPath": "I:\\WEB API\\IOTCafeApi\\IoTCafeApi.Model\\IoTCafeApi.Model.csproj"
             }
           }
         }
@@ -214,7 +214,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

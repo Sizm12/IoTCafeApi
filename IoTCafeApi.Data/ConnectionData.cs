@@ -139,7 +139,7 @@ namespace IoTCafeApi.Data
 
                 NpgsqlCommandBuilder.DeriveParameters(_sqlComand);
 
-                for (int i = 0; i < _sqlComand.Parameters.Count; i++)
+                for (int i = 0; i < args.Length; i++)
                 {
                     _sqlComand.Parameters[i].Value = (args[i] != null) ? args[i] : DBNull.Value;
                 }
@@ -179,7 +179,7 @@ namespace IoTCafeApi.Data
 
                 NpgsqlCommandBuilder.DeriveParameters(_sqlComand);
 
-                for (int i = 0; i < _sqlComand.Parameters.Count; i++)
+                for (int i = 0; i < args.Length; i++)
                 {
                     _sqlComand.Parameters[i].Value = (args[i] != null) ? args[i] : DBNull.Value;
                 }
@@ -282,7 +282,7 @@ namespace IoTCafeApi.Data
 
                 NpgsqlCommandBuilder.DeriveParameters(_sqlComand);
 
-                for (int i = 0; i < _sqlComand.Parameters.Count; i++)
+                for (int i = 0; i < args.Length; i++)
                 {
                     _sqlComand.Parameters[i].Value = (args[i] != null) ? args[i] : DBNull.Value;
                 }
@@ -320,7 +320,7 @@ namespace IoTCafeApi.Data
 
                 NpgsqlCommandBuilder.DeriveParameters(_sqlComand);
 
-                for (int i = 0; i < _sqlComand.Parameters.Count; i++)
+                for (int i = 0; i < args.Length; i++)
                 {
                     _sqlComand.Parameters[i].Value = (args[i] != null) ? args[i] : DBNull.Value;
                 }
@@ -427,7 +427,7 @@ namespace IoTCafeApi.Data
 
                 NpgsqlCommandBuilder.DeriveParameters(_sqlComand);
 
-                for (int i = 0; i < _sqlComand.Parameters.Count; i++)
+                for (int i = 0; i < args.Length; i++)
                 {
                     _sqlComand.Parameters[i].Value = (args[i] != null) ? args[i] : DBNull.Value;
                 }
@@ -471,7 +471,7 @@ namespace IoTCafeApi.Data
 
                 NpgsqlCommandBuilder.DeriveParameters(_sqlComand);
 
-                for (int i = 0; i < _sqlComand.Parameters.Count; i++)
+                for (int i = 0; i < args.Length; i++)
                 {
                     _sqlComand.Parameters[i].Value = (args[i] != null) ? args[i] : DBNull.Value;
                 }
