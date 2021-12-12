@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IoTCafeApi.Data\IoTCafeApi.Data.csproj" />
+    <ProjectReference Include="..\IoTCafeApi.Model\IoTCafeApi.Model.csproj" />
+  </ItemGroup>
+
+</Project>

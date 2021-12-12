@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Sizm\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Sizm\\.nuget\\packages"
+    ]
+  }
+}

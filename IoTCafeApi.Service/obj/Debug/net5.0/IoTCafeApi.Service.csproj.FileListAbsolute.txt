@@ -1,0 +1,17 @@
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\bin\Debug\net5.0\IoTCafeApi.Service.deps.json
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\bin\Debug\net5.0\IoTCafeApi.Service.dll
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\bin\Debug\net5.0\ref\IoTCafeApi.Service.dll
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\bin\Debug\net5.0\IoTCafeApi.Service.pdb
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\bin\Debug\net5.0\IoTCafeApi.Data.dll
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\bin\Debug\net5.0\IoTCafeApi.Model.dll
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\bin\Debug\net5.0\IoTCafeApi.Data.pdb
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\bin\Debug\net5.0\IoTCafeApi.Model.pdb
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\obj\Debug\net5.0\IoTCafeApi.Service.csproj.AssemblyReference.cache
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\obj\Debug\net5.0\IoTCafeApi.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\obj\Debug\net5.0\IoTCafeApi.Service.AssemblyInfoInputs.cache
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\obj\Debug\net5.0\IoTCafeApi.Service.AssemblyInfo.cs
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\obj\Debug\net5.0\IoTCafeApi.Service.csproj.CoreCompileInputs.cache
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\obj\Debug\net5.0\IoTCafeApi.Service.csproj.CopyComplete
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\obj\Debug\net5.0\IoTCafeApi.Service.dll
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\obj\Debug\net5.0\ref\IoTCafeApi.Service.dll
+C:\IotCafeApi\IoTCafeApi\IoTCafeApi.Service\obj\Debug\net5.0\IoTCafeApi.Service.pdb
