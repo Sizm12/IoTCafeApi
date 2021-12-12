@@ -14,7 +14,7 @@ create table catmenu(
 	menuurl varchar(125) not null,
 	menuposition integer not null,
 	menustatus boolean default true NOT NULL,
-	menufatherid integer not null, 
+	menufatherid integer, 
 	Foreign Key(menurol) references catrol(rolid),
 	Foreign Key(menufatherid) references catmenu(menuid)
 );
