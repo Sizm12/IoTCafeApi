@@ -64,6 +64,45 @@ $BODY$
   ROWS 1000;
 select * from "public"."sp_getuser"()
 
+CREATE OR REPLACE FUNCTION public."sp_CatUserGetByCredential"(
+	_email character,
+	_password character)
+    RETURNS TABLE(userid integer, rolid integer, rolname character varying) 
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE PARALLEL UNSAFE
+    ROWS 1000
+
+AS $BODY$
+begin 
+	return query select A.userid, 
+						B.rolid, 
+						B.rolname 
+				from catusers as A inner join catrol as B 
+					on B.rolid=A.userrolid
+				where A.useremail=_email 
+					 and A.userpassword=_password 
+					 and A.userstatus=true 
+					 and B.rolstatus=true;
+end;
+$BODY$;
+
+CREATE OR REPLACE FUNCTION public."sp_CatUserGetById"(
+	_userid integer)
+    RETURNS SETOF catusers 
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE PARALLEL UNSAFE
+    ROWS 1000
+
+AS $BODY$
+begin
+	
+return query select * from "public"."catusers" where userid=_userid;
+	
+end;
+$BODY$;
+
  ---Select Menu Function 
   CREATE OR REPLACE FUNCTION "public"."sp_getmenu"()
   RETURNS setof "public"."catmenu" AS
@@ -74,6 +113,21 @@ $BODY$
   COST 100
   ROWS 1000;
 select * from "public"."sp_getmenu"()
+
+CREATE OR REPLACE FUNCTION public."sp_CatMenuGetByRolId"(_rolid integer)
+    RETURNS SETOF catmenu 
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE PARALLEL UNSAFE
+    ROWS 1000
+
+AS $BODY$
+begin
+
+return query select * from "public"."catmenu" where menurol=_rolid;
+
+end;
+$BODY$;
 
  ---Select Variety Function 
   CREATE OR REPLACE FUNCTION "public"."sp_getvariety"()
