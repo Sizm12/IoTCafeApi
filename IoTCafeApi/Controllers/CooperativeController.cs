@@ -1,6 +1,7 @@
 ﻿using IoTCafeApi.Entities;
 using IoTCafeApi.Model.Cooperative.Entities;
 using IoTCafeApi.Service.Cooperative;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,6 +13,7 @@ namespace IoTCafeApi.Controllers
 {
     [Route("Cooperatives")]
     [ApiController]
+    [Authorize]
     public class CooperativeController : ControllerBase
     {
         private ICooperativeServices _CooperativeServices;
@@ -22,6 +24,7 @@ namespace IoTCafeApi.Controllers
         }
 
         [HttpGet("GetAll")]
+        [Authorize(Roles = "administrator")]
         public IActionResult UserGetAll()
         {
 

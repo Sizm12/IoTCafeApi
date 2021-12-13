@@ -14,7 +14,6 @@ I:\WEB API\IOTCafeApi\IoTCafeApi.Model\bin\Debug\net5.0\IoTCafeApi.Model.deps.js
 I:\WEB API\IOTCafeApi\IoTCafeApi.Model\bin\Debug\net5.0\IoTCafeApi.Model.dll
 I:\WEB API\IOTCafeApi\IoTCafeApi.Model\bin\Debug\net5.0\ref\IoTCafeApi.Model.dll
 I:\WEB API\IOTCafeApi\IoTCafeApi.Model\bin\Debug\net5.0\IoTCafeApi.Model.pdb
-I:\WEB API\IOTCafeApi\IoTCafeApi.Model\obj\Debug\net5.0\IoTCafeApi.Model.csproj.AssemblyReference.cache
 I:\WEB API\IOTCafeApi\IoTCafeApi.Model\obj\Debug\net5.0\IoTCafeApi.Model.GeneratedMSBuildEditorConfig.editorconfig
 I:\WEB API\IOTCafeApi\IoTCafeApi.Model\obj\Debug\net5.0\IoTCafeApi.Model.AssemblyInfoInputs.cache
 I:\WEB API\IOTCafeApi\IoTCafeApi.Model\obj\Debug\net5.0\IoTCafeApi.Model.AssemblyInfo.cs

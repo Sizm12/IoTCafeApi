@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "32095c91-0290-4271-9551-534f9d693c6d": {
+      "ProjectGuid": "32095c91-0290-4271-9551-534f9d693c6d",
+      "DisplayName": "IoTCafeApi.Service",
+      "ColorIndex": 0
+    },
+    "b7bcffe4-0528-4189-acd4-77e7afe115a0": {
+      "ProjectGuid": "b7bcffe4-0528-4189-acd4-77e7afe115a0",
+      "DisplayName": "IoTCafeApi",
+      "ColorIndex": 1
+    },
+    "8c9a27a9-2da3-4a45-8167-a7adc53d69ea": {
+      "ProjectGuid": "8c9a27a9-2da3-4a45-8167-a7adc53d69ea",
+      "DisplayName": "IoTCafeApi.Data",
+      "ColorIndex": 2
+    },
+    "c551e4ea-6f0b-4a59-9cda-c99bbddde4b9": {
+      "ProjectGuid": "c551e4ea-6f0b-4a59-9cda-c99bbddde4b9",
+      "DisplayName": "IoTCafeApi.Model",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

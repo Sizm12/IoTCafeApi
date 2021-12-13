@@ -41,8 +41,4 @@ I:\WEB API\IOTCafeApi\IoTCafeApi\obj\Debug\net5.0\IoTCafeApi.GeneratedMSBuildEdi
 I:\WEB API\IOTCafeApi\IoTCafeApi\obj\Debug\net5.0\IoTCafeApi.AssemblyInfoInputs.cache
 I:\WEB API\IOTCafeApi\IoTCafeApi\obj\Debug\net5.0\IoTCafeApi.AssemblyInfo.cs
 I:\WEB API\IOTCafeApi\IoTCafeApi\obj\Debug\net5.0\IoTCafeApi.csproj.CoreCompileInputs.cache
-I:\WEB API\IOTCafeApi\IoTCafeApi\obj\Debug\net5.0\IoTCafeApi.MvcApplicationPartsAssemblyInfo.cs
 I:\WEB API\IOTCafeApi\IoTCafeApi\obj\Debug\net5.0\IoTCafeApi.MvcApplicationPartsAssemblyInfo.cache
-I:\WEB API\IOTCafeApi\IoTCafeApi\obj\Debug\net5.0\IoTCafeApi.dll
-I:\WEB API\IOTCafeApi\IoTCafeApi\obj\Debug\net5.0\ref\IoTCafeApi.dll
-I:\WEB API\IOTCafeApi\IoTCafeApi\obj\Debug\net5.0\IoTCafeApi.pdb
